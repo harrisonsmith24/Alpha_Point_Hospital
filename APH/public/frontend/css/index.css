@@ -1,0 +1,276 @@
+/* Body Content */
+
+.imgContainer{
+    width: 87%;
+    position: relative;
+    text-align: center;
+    color: White;
+}
+
+.imgContainer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#doctors{
+    width: 100%;
+    height: 100%;
+    float: none;
+    
+}
+
+.stateBox{
+    width:100%;
+    height: 20%;
+    position:absolute;
+    top:80%;
+    left: 8%;
+    background-color: rgba(255, 255, 255, 0.549);
+    color: #170754;
+    text-align: center;
+}
+
+.imgContainer h2 {
+    font-size: 4vw;
+}
+
+.imgContainer p {
+    font-size: 2vw;
+}
+
+/* Information Container */
+
+.infoTable{
+    width:100%;
+}
+
+.covidInfo{
+    max-height: 300px;
+    min-height: 100px;
+}
+
+.infoContainer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.infoContainer {
+    width: 100%;
+    height: 120%;
+    background-color: #2d2d59;
+    color: white;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.infoContainer h2{
+    padding-top: 1%;
+    font-size: 3vw;
+}
+
+.infoContainer h3 {
+    margin-top: 15px;
+    font-size: 2.1vw;
+    font-weight: lighter;
+}
+
+.infoContainer button {
+    width: 20%;
+    background-color: white;
+    color:#2d2d59;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.infoContainer button:hover{
+    color:white;
+    background-color: #2d2d59;
+    border: 2px solid white;
+}
+
+.imageRow{
+    padding: 0;
+    margin: 0;
+}
+
+.imageRow::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.officeContainer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.officeContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 0%;
+}
+
+.hospital{
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.textLeftContainer{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.549);
+
+}
+
+.textLeftContainer img{
+    width: 80%;
+    min-height: 100px;
+    max-height: 250px;
+    padding-top: 4%;
+}
+
+.textLeftContainer button:hover{
+    background-color: #2d2d59;
+    border: 2px solid white;
+    color: white;
+    
+}
+
+.textLeftContainer button{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #2d2d59;
+    color:#2d2d59;
+    font-size: 1.5vw;
+}
+
+.bottomRow{
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #93cbbd; 
+}
+
+.bottomRow::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.socialMedia{
+    float: left;
+    margin: 5% 10%;
+    vertical-align: center;
+    padding-right: 8%;
+}
+
+.socialMedia::after{
+    clear: both;
+    content: "";
+    display: table;  
+}
+
+.smIcon{
+    color:#2d2d59;
+    height: 48px;
+    width: 48px;
+    padding:10px;
+}
+
+.quickLinks{
+    float: left;
+    margin:2% 2% ;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    padding: 2% 0%;
+    font-size: 1.5vw;
+}
+
+.quickLinks ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.quickLinks ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 1.0vw;
+    font-weight: bold;
+}
+
+.quickLinks ul li a:hover {
+    text-decoration: none;
+    color: #2d2d59;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.quickLinks::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.popUpContainer{
+    border-top: 4px solid #2d2d59;
+    border-bottom: 4px solid #2d2d59;
+    background: white;
+    font-size: 1.5vw;
+    color: #2d2d59;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+
+
+.location {
+    border: 3px solid #170754;
+    float: none;
+    padding:0;
+    margin: 3% 33%;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    height: 40%;
+    width: 60%;  
+  }
+
+#locationContainer {
+    display: none;
+}
+
+#discoverMore {
+    display: none;
+}
+
+#learnContainer{
+    display: none;
+}

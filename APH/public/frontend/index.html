@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Alpha Point Hospital | Homepage</title>
+    <link rel="stylesheet" href="/frontend/css/styles.css" />
+    <link rel="stylesheet" href="/frontend/css/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.1.5/index.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="navBar">
+        <nav class="navLinks">
+            <img class="APlogo" src="/frontend/images/APlogo.png"/>
+            <table class="nav">  
+                <tr class="links">
+                    <td class="segments">
+                        <a href="/frontend/index.html">HOME</a>
+                    </td>
+                    <td class="segments">
+                        <a href="/frontend/appointments.html">APPOINTMENTS</a>
+                    </td>
+                    <td class="segments">
+                        <a href="/frontend/item_list.html">SHOP</a>
+                    </td>
+                    <td class="segments">
+                        <a href="/frontend/cart.html">CART</a>
+                    </td>
+                    <td class="segments">
+                        <a href="/frontend/orders.html">ORDERS</a>
+                    </td>
+                    <td class="segments">
+                        <a href="login.html">LOGIN</a>
+                    </td>
+                </tr>
+            </table>
+        <nav>
+    </div>
+
+    <div class="frontIntro">
+        <div class="imgContainer">
+            <img id="doctors" src="/frontend/images/doctors.jpg">
+            <div class="stateBox">
+                <h2>WE ARE ALPHA</h2>
+                <p>Shaping the future of health with world-class research and care</p>
+            </div>
+        </div>   
+    </div>
+   
+    <table class="infoTable">
+        <tr class="covidInfo">
+            <div class="infoContainer">
+                <h2>Covid-19 Information</h2> 
+                <h3>Vaccination, Visitation, & Testing</h3> 
+                <button id="learnMore">LEARN MORE</button>
+            </div>
+            <div id="learnContainer">
+                <div class="popUpContainer">
+                    <h3>Covid-19 Procedures</h3>
+                        <p>Our policies for Covid-19 are put in plce to protect you those around you from this harmful pandemic. We ask you to please schedule a 
+                            test by appointment if you:
+            </p>
+            <br>
+            <ul>
+                <li><p>Have a fever</p></li>
+                <li><p>Feel ill or fatigue</p></li>
+                <li><p>Excessive coughing or sneezing</p></li>
+                <li><p>Short of breath</p></li>
+            </ul>
+            <br>
+            <p>We are dedicated you your saftey and those around you. Thank You!</p>
+            </div>
+            </div>
+        </tr>
+        <tr class="imageRow">
+            <div class="officeContainer">
+                <img class="hospital" src="/frontend/images/medicaloffice.jpg"/>
+                <div class="textLeftContainer">
+                   <img src="/frontend/images/APlogo.png"/>
+                   <button id="disBtn">Discover More</button>
+                   <button id="locBtn">Location</button> 
+                </div>
+            </div>
+        <div id="discoverMore">
+            <div class="popUpContainer">
+            <h3>Discover More</h3>
+            <p>     Here at Alpha Point Hospital, your care and well being is our highest priority. Our dedicated staff are highly trained professionals
+                who have spent years in health care to learn what treatments are tailored to your spcific ingury or illness. Come by for a free consultation
+                so we can get to know you and better understand you as a person. 
+            </p>
+            </div>
+        </div>
+        
+        <div id="locationContainer">
+            <div class = "popUpContainer">
+            <h3>Our Location Map</h3>
+            <p>2031 Forestbrook Road</p>
+            <p>Myrtle Beach SC, 29588</p>
+            <div id="map">
+                <img class="location" src="/frontend/images/map.png"></img>
+            </div>
+        </div>
+        </tr>
+        <tr>
+            <div class="bottomRow">
+            <div class="socialMedia">
+                    <h2>CONNECT WITH US</h2>
+                    <img src="/frontend/images/facbookicon.png" class="smIcon">
+                    <img src="/frontend/images/instaicon.png" class="smIcon">
+                    <img src="/frontend/images/youtubeicon.png" class="smIcon">
+                    <img src="/frontend/images/twittericon.png" class="smIcon">
+            </div>
+            <div class="quickLinks">
+                <h4>CONTACT INFO</h4>
+                <ul>
+                    <li>Contact Info</li>
+                    <li>Alpha Point Hospital</li>
+                    <li>Phone: (843)399-1800</li>
+                    <li>Fax: (843)399-1000</li>
+                    <li>Email: APHelp@alphapoint.com</li>
+                </ul>
+            </div>
+            <div class="quickLinks">
+                 <h4>QUICKLINKS</h4>
+                    <ul>
+                        <li><a href="/frontend/index.html">Home</a></li>
+                        <li><a href="/frontend/appointments.html">Appointments</a></li>
+                        <li><a href="/frontend/item_list.html">Shop</a></li>
+                        <li><a href="/frontend/cart.html">Carts</a></li>
+                        <li><a href="/frontend/orders.html">Orders</a></li>
+                    </ul>
+            </div> 
+            </div>           
+        </tr>
+    </table>
+    <script type="text/babel" src="public\frontend\scripts\popup.js"></script>
+</body>
+</html>

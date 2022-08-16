@@ -1,0 +1,141 @@
+/* Body Design */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;	
+}
+
+html {
+    height: 100%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100%;
+	min-width: 1000px;
+	max-width: 100%;
+}
+
+/* Nav Bar */
+
+.top-bar{
+    height: 50px;
+    width: 100%;
+    background-color:#170754 ;
+}
+
+.top-bar a{
+    float: right;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+    display: block;
+    width: 20%;
+    min-height: 100px;
+    max-height: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    text-align: center;
+}
+
+.nav-left{
+    display: block;
+    float: left;
+    background-color: rgb(226, 223, 248);
+    width: 15%;
+    height: 2500px;
+
+}
+
+.nav-left a {
+    display: block;
+    float: left;
+    font-size: .8vw;
+    font-weight: bold;
+    text-decoration: none;
+    color:#170754;
+    border-right: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-left a:hover{
+    border-right: 2px solid #170754;
+}
+
+.nav-section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#insertsTabs{
+
+    display:none;
+}
+
+#searchTabs{
+    display:none;
+}
+
+#updateTabs{
+    display:none;
+}
+
+#selector1, #selector2, #selector3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    color:#170754;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+#arrow1, #arrow2, #arrow3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    color:#170754;
+    transform: rotate(270deg);
+}
+
+#navTab{
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#home{
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+#homeContent{
+    color: #170754;
+    width: 100%;
+}
+
+p{
+    padding-bottom: 40px;
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+
